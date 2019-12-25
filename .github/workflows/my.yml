@@ -129,7 +129,7 @@ jobs:
           CONFIG_PACKAGE_kmod-fs-squashfs=y
           EOF
 
-          USB3.0支持:
+          # USB3.0支持:
           cat >> .config <<EOF
           CONFIG_PACKAGE_kmod-usb-ohci=y
           CONFIG_PACKAGE_kmod-usb-ohci-pci=y
